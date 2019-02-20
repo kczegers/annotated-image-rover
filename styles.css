@@ -62,6 +62,7 @@ img {
     /* Contains content when closing the overlay */
     overflow: hidden;
     cursor: pointer;
+    font-size: 2em;
 }
 
 .dot .inner {
@@ -98,34 +99,64 @@ img {
 /*****************************
 * Dot customizations go here
 ******************************/
-.dot.orange {
-    background-color: rgba(255, 133, 25, 0.65);
+.dot.yellow {
+    background-color: rgba(232, 209, 20, 0.65);
 }
 
 .dot.blue {
-    background-color: rgba(0, 93, 255, 0.65);
+    background-color: rgba(71, 130, 255, 0.65);
+}
+
+.dot.red {
+    background-color: rgba(162, 13, 14, 0.65);
+}
+
+.dot.house {
+    top: 58%;
+    left: 38%;
+    transform: translate(-38%, -58%);
+}
+
+.dot.water {
+    top: 65%;
+    left: 68%;
+    transform: translate(-68%, -65%)
+}
+
+.dot.flowers {
+    top: 85%;
+    left: 30%;
+    transform: translate(-30%, -85%);
+}
+
+.dot.purple {
+    background-color: rgba(159, 34, 235, 0.65);
 }
 
 .dot.green {
-    background-color: rgba(12, 232, 196, 0.65);
+    background-color: rgba(50, 162, 68, 0.65);
 }
 
-.dot.solar {
-    top: 53%;
-    left: 25%;
-    transform: translate(-25%, -53%);
+.dot.pink {
+    background-color: rgba(232, 113, 156, 0.65);
 }
 
-.dot.camera {
-    top: 15%;
+.dot.plant {
+    top: 30%;
     left: 45%;
-    transform: translate(-45%, -15%)
+    transform: translate(-45%, -30%);
 }
 
-.dot.wheels {
+.dot.path {
     top: 75%;
-    left: 60%;
-    transform: translate(-60%, -75%);
+    left: 70%;
+    transform: translate(-70%, -75%);
+}
+
+.dot.habitat {
+    top: 55%;
+    left: 18%;
+    transform: translate(-18%, -55%);
 }
 
 /*********************************
